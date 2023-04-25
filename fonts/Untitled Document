@@ -1,0 +1,16 @@
+sudo adduser julia_test
+sudo groupadd studens
+sudo usermod -aG students julia_test
+sudo usermod -aG students user
+(pwd cd /home/)
+mkdir intern_5_module
+sudo chown :students intern_5_module
+su julia_test
+cd intern_5_module
+nano south.txt
+grep -lR край . | tee okrug_krai_spisok.txt
+su user
+cd ~
+tar -cf intern_5_module.tar intern_5_module
+gzip intern_5_module.tar
+

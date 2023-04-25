@@ -1,0 +1,1008 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .container{
+        width: 100%;
+        max-width: 688px;
+        margin: 0 auto;
+        position: relative;
+       
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .container{
+        width: 100%;
+        max-width: 363px;
+        margin: 0 auto;
+        position: relative;
+        padding: 0 10px;
+    }
+}
+img{
+    max-width: 100%;
+}
+header{
+    
+    /* min-height: 87px; */
+    width: 100%;
+    background:black;  
+    
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    header{
+    
+        /* min-height: 64px; */
+        width: 100%;
+        background:black;  
+        
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    header{
+    
+        /* min-height: 48px; */
+        width: 100%;
+        background:black;  
+        
+    }
+
+}
+h1{
+    margin: 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 31px 0; 
+   
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .flex{
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 17px 0; 
+       
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .flex{
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 14px 0; 
+       
+    }
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu:hover{
+    cursor: pointer;
+}
+.menu .menu_text{
+    font-family: 'Montserrat',  sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 8px;
+    color: #fff;
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .menu .menu_text{
+        display:none;
+    }
+}
+ .logo{
+    display: block;
+   
+}
+@media (max-width: 767px){
+    .logo{
+        display: block;
+        height: 50%;
+        width: 37%;
+        margin-left: 45px;
+    }
+}
+@media (max-width: 767px){
+    footer .logo{
+        display: block;
+        height: 20%;
+        width: 56%;
+        margin: 0 auto;
+    }
+}
+header .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+   
+}
+header .icons:hover{
+    cursor: pointer;
+}
+
+header .icons .heart, header .icons .search{
+
+    margin-left: 16px;
+} 
+.collection_access{
+    /* min-height: 599px; */
+    background:url('../img/bg.png') center center/cover no-repeat;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .collection_access{
+        /* min-height: 321px; */
+        background:url('../img/bg.png') center center/cover no-repeat;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .collection_access{
+        /* min-height: 156px; */
+        background:url('../img/bg.png') center center/cover no-repeat;
+    }
+}
+.collection_access_text{
+    padding-top: 190px ;
+    padding-bottom: 189px;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .collection_access_text{
+        padding-top: 86px ;
+        padding-bottom: 85px;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .collection_access_text{
+        padding: 35px 0 ;    
+    }
+}
+.collection_access_text .tittle, .lim_pro .tittle{
+   
+    font-family: 'Montserrat',  sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 1.63;
+    text-align: center;
+    color: #fff;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .lim_pro .tittle{
+   
+        font-family: 'Montserrat',  sans-serif;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 1.6;
+        text-align: center;
+        color: #fff;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .collection_access_text .tittle{
+        font-family: 'Montserrat',  sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.57;
+        text-align: center;
+        color: #fff;
+    }
+}
+.collection_access_text .access{
+    margin-top: 16px;
+    font-family: 'Montserrat',  sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.58;
+    text-align: center;
+    color: #fff;
+    padding: 0 138px;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .collection_access_text .access{
+        margin-top: 8px;
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 1.63;
+        text-align: center;
+        color: #fff;
+        padding: 0 40px;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .collection_access_text .access{
+        margin-top: 8px;
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.63;
+        color: #fff;
+        padding: 0 0;
+    }
+}
+.lim_pro{
+    background-color:#000000;
+    /* min-height: 1382px; */
+    padding: 40px 0 ;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .lim_pro{ 
+        background-color:#000000;
+        /* min-height: 1010px; */
+        padding: 23px 0 32px 0 ;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .lim_pro{ 
+        background-color:#000000;
+        /* min-height: 836px; */
+        padding: 16px 0 ;
+    }
+}
+.lim_pro_5{ 
+    font-family: 'Montserrat',  sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .lim_pro_5{ 
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 32px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        text-align: center;
+        color: #fff;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .lim_pro_5{ 
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        text-align: center;
+        color: #fff;
+    }
+}
+.lim_pro_img, .down{
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .lim_pro_img{
+        display: block;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .lim_pro_img{
+        display: block;
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+}
+.down{
+    margin-top: 21px;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .down{
+        margin-top: 0;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .down{ 
+      margin: 0 auto;
+    }
+}
+ .lim_pro_text{
+    color: #fff;
+    padding: 0 219px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Montserrat',  sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.63;
+}
+
+
+.lim_pro_text span{
+    display:block;
+    margin: 0 auto;
+    
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .lim_pro_text{
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 1.63;
+        text-align: center;
+        color: #fff;
+        padding: 0 16px 0 17px;
+        margin-top: 8px;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .lim_pro_text{
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 1.6;
+        text-align: center;
+        color: #fff;
+       padding: 0;
+        margin-top: 6px;
+    }
+}
+.lim_pro .tittle{
+    margin-top: 16px;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .lim_pro .tittle{
+        margin-top: 0;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .lim_pro .tittle{
+        margin-top: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        color: #fff;
+        opacity: 0.7;
+    }
+}
+.more_text{
+    font-family: 'Montserrat',  sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2.1;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .more_text{
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 2.1;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 16px;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .more_text{
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 1.5;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 16px;
+    }
+}
+.more_text:hover
+{
+    cursor: pointer;
+}
+.line{
+    margin: 0 auto;
+    margin-top: 6px;
+    width: 226px;
+    height: 4px;
+    background-color: #fff;
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .line{
+        margin: 0 auto;
+        margin-top: 6px;
+        width: 182px;
+        height: 4px;
+        background-color: #fff;
+    }
+}
+.line:hover{
+    cursor: pointer;
+}
+.work{
+    background-color: #fff;
+    /* min-height: 1438px; */
+    padding: 48px 0 56px 0;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .work{
+        background-color: #fff;
+        /* min-height: 2170px; */
+        padding: 32px 0 48px 0;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .work{
+        background-color: #fff;
+        /* min-height: 1983px; */
+        padding: 24px 0 40px 0;
+    }
+}
+.work .work_in_chanel, .work .process {
+    font-family: 'Montserrat',  sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.63;
+    text-align: center;
+    color: #000;
+}
+.work .process{
+    margin-top: 56px;
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .work .work_in_chanel{
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        font-style: normal;
+        line-height: 1.6;
+        text-align: center;
+        color: #000;
+    }
+}
+.house{
+        width: 100%;
+        height: 540px;
+        object-fit: cover;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .house{
+        width: 100%;
+        height: 340px;
+        object-fit: cover;
+}
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .house{
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+}
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .work .process {
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        font-style: normal;
+        line-height: 1.63;
+        text-align: center;
+        color: #000;
+        margin-top: 32px;}
+
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .work .process {
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        font-style: normal;
+        line-height: 1.6;
+        text-align: center;
+        color: #000;
+        margin-top: 32px;}
+}
+
+.work .cont_work{
+    margin-top: 24px;
+    display: flex;
+    align-items:center;
+    gap: 20px;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .work .cont_work{
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:stretch;
+        gap: 24px;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .work .cont_work{
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px; 
+    }
+}
+
+.work .work_text{
+    font-family: 'Montserrat',  sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.63;
+    text-align: left;
+    color: #000;
+   
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .work .work_text{
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 1.63;
+        text-align: center;
+        color: #000;
+        padding: 0 49px;
+       
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .work .work_text{
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 1.63;
+        text-align: center;
+        color: #000;
+ 
+    }
+}
+.work .btn{
+    width: 119px; 
+    height: 44px; 
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 18px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #000;
+    margin-top: 24px;
+    font-family: 'Montserrat',  sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .work .btn{
+        width: 119px; 
+        height: 44px; 
+        flex-grow: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 18px;
+        border-radius: 4px;
+        border: 0;
+        background-color: #000;
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .work .btn{
+        width: 100%; 
+        height: 44px; 
+        flex-grow: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 18px;
+        border-radius: 4px;
+        border: 0;
+        background-color: #000;
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-top: 16px;
+    }
+}
+.work .work_blocks{
+    margin-top: 24px;
+    display:flex;
+    justify-content: space-between;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .work .work_blocks{
+        margin-top: 16px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 32px;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .work .work_blocks{
+        margin-top: 16px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 32px;
+    }
+}
+.work .work_block {
+    width: 49%;    
+    margin-bottom: 2%;
+}
+/* Стили для телефонов и планшетов */
+@media (max-width: 1024px){
+    .work .work_block {
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
+
+.work_blocks .blocks_text{
+    font-family: 'Montserrat',  sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.63;
+    text-align: center;
+    color: #000;   
+    padding: 0 65px 0 65px;
+    margin-top: 16px;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .work_blocks .blocks_text{
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 1.63;
+        text-align: center;
+        color: #000;   
+        margin-top: 16px;
+        padding: 0;
+        letter-spacing: normal;
+        font-stretch: normal;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .work_blocks .blocks_text{
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 1.63;
+        text-align: center;
+        color: #000;   
+        margin-top: 8px;
+        padding: 0;
+        letter-spacing: normal;
+        font-stretch: normal;
+    }
+}
+.work_blocks .pic{
+    position: relative;
+}
+.work_blocks .pic .work_img{
+   
+    width: 100%;
+    height: 382px;
+    object-fit: cover;
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .work_blocks .pic .work_img{
+   
+        width: 100%;
+        height: 219px;
+        object-fit: cover;
+    }
+}
+.work_blocks .pic .play{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    transition: all .3s ease-in;
+}
+.work_blocks .pic .play:hover{
+    cursor: pointer;
+}
+.work_blocks .more_learn{
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat',  sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 24px;
+
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    .work_blocks .more_learn{
+    
+        display: flex;
+        justify-content: center;
+        font-family: 'Montserrat',  sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.63;
+        color: #000;
+        text-transform: uppercase;
+        margin-top: 16px;
+    
+    }
+}
+.work_blocks .more_learn:hover{
+    cursor: pointer;
+}
+.work_blocks .work_line{
+    width: 182px;
+    height: 2px;
+    background-color: #000;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+.work_blocks .work_line:hover{
+    cursor: pointer;
+}
+footer{
+
+    /* min-height: 510px; */
+    padding: 64px 0 72px 0;
+    background-color: #000;
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    footer{
+
+        min-height: 548px;
+        padding: 40px 0;
+        background-color: #000;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    footer{
+
+        /* min-height: 868px; */
+        padding: 32px 40px 16px 40px;
+        background-color: #000;
+    }
+}
+footer a{
+    font-family: 'Montserrat',  sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    text-decoration: none; 
+   /* cursor: pointer*/
+}
+footer a:visited{
+    color: #fff;
+}
+li {
+    list-style-type: none; 
+    margin-bottom: 8px;
+   }
+footer .ul_flex .li_tittle{
+    text-transform: uppercase;
+    font-family: 'Montserrat',  sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    footer .ul_flex{
+        margin-top: 32px;
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+   ul:nth-of-type(2)
+    {
+        order: 2;
+    }
+}
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    ul:nth-of-type(3)
+     {
+        flex-basis: 50%;
+         
+     }
+ }
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    ul:nth-of-type(4)
+     {
+         order: 3;
+        
+     }
+ }
+ /* .footer-column ul {
+    margin-right: 80px;
+} */
+ ul {
+    margin-right: 80px;
+} 
+ /* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    ul
+
+     { 
+        /* display: inline; */
+        margin-bottom: 32px;
+        /* margin-right: 0;  */
+        /* ckmscmscmksmkcmk */
+     }
+ }
+ /* Стили для телефонов */
+@media (max-width: 767px){
+    footer .ul_flex{
+        margin-top: 24px;
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 767px){
+    ul
+    { 
+      
+       margin-bottom: 24px;
+    }
+        
+}
+
+.footer-columns {
+    display: flex;
+    margin-top: 64px;
+   flex-wrap: wrap;
+   /* fjjenfjkenfcemkksfr */
+}
+.footer-column {
+    display: flex;
+}
+
+
+/* Стили для планшетов */
+@media(min-width:768px) and (max-width: 1024px){
+    .footer-column {
+        width: 50%;
+        flex-direction: column;
+    }
+}
+/* Стили для телефонов */
+@media (max-width: 767px){
+    footer{
+        /* min-height: 868px; */
+        padding: 32px 40px 16px 40px;
+        background-color: #000;
+    }
+    footer .container {
+        padding: 0;
+    }
+
+    .footer-column {
+        flex-direction: column;
+    }
+    .footer-column ul {
+        margin-right: 0;
+    }
+}
